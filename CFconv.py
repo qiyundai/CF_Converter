@@ -5,7 +5,7 @@ def checksystem(letter):
 
     elif letter == "F":
         degreef = input("Please type in the degree in F°: ")
-        convert_ftoc("You are looking at F°" + int(degreef))
+        convert_ftoc(int(degreef))
 
     else:
         print("Error; please type uppercase C or F.")
